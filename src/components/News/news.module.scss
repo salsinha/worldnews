@@ -1,0 +1,21 @@
+@import "../../colors.scss";
+
+.list_news {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    a {
+        color: $blue;
+        font-size: 14pt;
+        width: 100%;
+        &:hover {
+            text-decoration: none;
+            color: $dark_blue;
+        }
+        p{
+            margin-bottom: 0;
+        }
+        small {
+            text-transform: uppercase;
+        }
+    }
+}
